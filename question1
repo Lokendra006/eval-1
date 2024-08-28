@@ -1,0 +1,20 @@
+str="We are Developers"
+vowels=0
+unique={'a':0,'e':0,'i':0,'o':0,'u':0}
+for i in range(len(str)):
+    if str[i]=='a'or str[i]=='e' or str[i]=='i'or str[i]=='o'or str[i]=='u'or str[i]=='A'or str[i]=='E'or str[i]=='I' or str[i]=='O' or str[i]=='U':
+        vowels+=1
+        
+        unique[str[i]]+=1
+print("vowels")
+print(vowels)
+print(unique)
+
+##
+##for key,value in unique:
+##    if(unique[value]>1):
+##        print(unique[key])
+
+        
+    
+    
