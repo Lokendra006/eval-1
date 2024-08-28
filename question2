@@ -1,0 +1,19 @@
+import string
+
+str="Yes, Real time monitoring, Immediate alerts."
+
+n=int(input())
+x=0
+for i in range(n):
+    str1=str[:n]
+    str2=str1.lower()
+
+    
+   
+
+for i in range(len(str)):
+    str3=str[n:]
+    str4=str3.upper()
+
+
+print(str2,str4)
